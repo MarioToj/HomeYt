@@ -1,0 +1,28 @@
+
+*,
+*::after,
+*::before {
+
+    box-sizing: border-box;
+} 
+
+
+.container {
+
+    
+    background: #333;
+    height: 30vh;
+
+    display:flex;
+    flex-flow: row wrap;
+    
+}
+
+.item {
+
+    background-color: #666;
+    border: medium solid #999;
+    width: 20%;
+    
+    flex-grow: 1;
+}
